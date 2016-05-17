@@ -1,4 +1,4 @@
-package com.example.zhangyiran.myapplication2;
+package com.example.yongyang.myapplication2;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton; import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +17,7 @@ FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab); fab.se
 public void onClick(View view) {
 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG) .setAction("Action", null).show();
 } });
-myWebView = (WebView)findViewById(R.id.webView); myWebView.getSettings().setJavaScriptEnabled(true); myWebView.loadUrl("http://whitecrazy.com/AAU/root/");
+myWebView = (WebView)findViewById(R.id.webView); myWebView.getSettings().setJavaScriptEnabled(true); myWebView.loadUrl("http://yycreate.com/easyps");
 }
 @Override
 public boolean onCreateOptionsMenu(Menu menu) {
